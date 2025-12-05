@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle at top, #1a2736, #050810 55%);
+  font-family: Arial, sans-serif;
+  color: #f5f7fb;
+  min-height: 100vh;
+}
+
+.header {
+  padding: 20px 10px 10px 10px;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-inner h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.header-inner p {
+  margin-top: 5px;
+  color: #a1b1c6;
+}
+
+.controls {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.controls input {
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(9, 17, 32, 0.9);
+  border: 1px solid rgba(106, 121, 151, 0.6);
+  color: white;
+}
+
+.controls select {
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(9, 17, 32, 0.9);
+  border: 1px solid rgba(106, 121, 151, 0.6);
+  color: white;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.games-grid {
+  margin-top: 20px;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 320px));
+  justify-content: center;
+}
+
+.game-card {
+  background: #0c1323;
+  border-radius: 15px;
+  border: 1px solid rgba(81, 110, 168, 0.4);
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+  transition: 0.2s;
+}
+
+.game-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 38px rgba(0, 0, 0, 0.8);
+}
+
+.game-image-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 56%;
+  overflow: hidden;
+}
+
+.game-image-wrapper img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.25s ease-out;
+}
+
+.game-rating-chip {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: black;
+  border: 1px solid #88c1ff;
+  font-size: 12px;
+}
+
+.card-delete-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(255, 60, 60, 0.4);
+  border: 1px solid;
+  padding: 3px 8px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.card-delete-btn:hover {
+  background: red;
+}
+
+.game-content {
+  padding: 12px;
+}
+
+.game-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.game-genre {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #8ea5d9;
+}
+
+.game-meta {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #7990be;
+}
+
+.badges-row {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.badge {
+  padding: 3px 8px;
+  font-size: 12px;
+  border-radius: 999px;
+  background: rgba(79, 140, 255, 0.2);
+  border: 1px solid rgba(79, 140, 255, 0.5);
+}
+
+.badge-outline {
+  background: transparent;
+  color: #9aa5c9;
+}
+
+.badge-platform {
+  background: rgba(38, 208, 158, 0.12);
+  border: 1px solid rgba(38, 208, 158, 0.6);
+}
+
+.status-message {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.status-error {
+  color: red;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal.show {
+  display: flex;
+}
+
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  position: relative;
+  background: #0c1323;
+  border: 1px solid #7893ff;
+  border-radius: 15px;
+  max-width: 900px;
+  width: 95%;
+  padding: 20px;
+}
+
+.modal-close {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 22px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+}
+
+.modal-body {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 20px;
+}
+
+.modal-image-wrapper {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.modal-image-wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+.modal-info h2 {
+  font-size: 24px;
+}
+
+.modal-meta {
+  margin-top: 10px;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.modal-rating {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.stars span {
+  font-size: 18px;
+}
+
+.modal-description {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.modal-actions {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.modal-actions a {
+  font-size: 0.85rem;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid rgba(132, 196, 255, 0.8);
+  background: rgba(18, 34, 70, 0.9);
+  color: #e3f0ff;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.modal-actions a:link,
+.modal-actions a:visited {
+  color: #e3f0ff;
+  text-decoration: none;
+}
+
+.modal-actions a:hover {
+  background: rgba(34, 68, 132, 0.9);
+  text-decoration: none;
+}
+.btn-primary,
+.btn-secondary {
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid #5ea0ff;
+  background: #143063;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-primary {
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: linear-gradient(
+    135deg,
+    rgba(37, 99, 235, 0.85),
+    rgba(59, 130, 246, 0.85)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #eaf3ff;
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+  transition: 0.25s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(59, 130, 246, 1),
+    rgba(96, 165, 250, 1)
+  );
+  box-shadow: 0 0 18px rgba(96, 165, 250, 0.65);
+  transform: translateY(-2px) scale(1.04);
+}
+
+.btn-primary:active {
+  transform: scale(0.97);
+  box-shadow: 0 0 8px rgba(96, 165, 250, 0.4);
+}
+
+.btn-primary,
+.btn-secondary:hover {
+  background: #5ea0ff;
+}
+.btn-secondary {
+  background: #101a2c;
+}
+
+.trailer-wrapper {
+  margin-top: 20px;
+  border: 1px solid #445;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.edit-form {
+  width: 100%;
+}
+
+.form-row {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-row input,
+.form-row textarea {
+  padding: 8px;
+  border-radius: 6px;
+  background: #0b1120;
+  border: 1px solid #4f6280;
+  color: white;
+}
+
+.form-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .modal-body {
+    grid-template-columns: 1fr;
+  }
+}

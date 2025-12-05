@@ -1,0 +1,1188 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Carrie",
+      "year": 1974,
+      "publisher": "Doubleday",
+      "isbn": "978-0-385-08695-0",
+      "pages": 199,
+      "handle": "carrie",
+      "awards": [],
+      "villains": [
+        "Tina Blake",
+        "Cindi",
+        "Myra Crewes",
+        "Billy deLois",
+        "Kenny Garson",
+        "Mary Lila Grace",
+        "Christine Hargensen",
+        "Vic Mooney",
+        "The Mortimer Snerds",
+        "Billy Nolan",
+        "Elenor Richmond",
+        "Rachel Spies",
+        "Jackie Talbot",
+        "Donna and Mary Lila Grace Thibodeau",
+        "Jessica Upshaw",
+        "Norma Watson",
+        "Margaret White"
+      ],
+      "villains_urls": [
+        "https://stephen-king-api.onrender.com/api/villain/4",
+        "https://stephen-king-api.onrender.com/api/villain/14",
+        "https://stephen-king-api.onrender.com/api/villain/16",
+        "https://stephen-king-api.onrender.com/api/villain/25",
+        "https://stephen-king-api.onrender.com/api/villain/38",
+        "https://stephen-king-api.onrender.com/api/villain/44",
+        "https://stephen-king-api.onrender.com/api/villain/49",
+        "https://stephen-king-api.onrender.com/api/villain/75",
+        "https://stephen-king-api.onrender.com/api/villain/77",
+        "https://stephen-king-api.onrender.com/api/villain/80",
+        "https://stephen-king-api.onrender.com/api/villain/90",
+        "https://stephen-king-api.onrender.com/api/villain/94",
+        "https://stephen-king-api.onrender.com/api/villain/99",
+        "https://stephen-king-api.onrender.com/api/villain/102",
+        "https://stephen-king-api.onrender.com/api/villain/108",
+        "https://stephen-king-api.onrender.com/api/villain/109",
+        "https://stephen-king-api.onrender.com/api/villain/113"
+      ],
+      "stock": 3
+    },
+    {
+      "id": "2",
+      "title": "Salem's Lot",
+      "year": 1975,
+      "publisher": "Doubleday",
+      "isbn": "978-0-385-00751-1",
+      "pages": 439,
+      "handle": "salem-s-lot",
+      "awards": [
+        "Nominee, World Fantasy Award, 1976[2]"
+      ],
+      "villains": [
+        "Kurt Barlow",
+        "Richard Straker"
+      ],
+      "villains_urls": [
+        "https://stephen-king-api.onrender.com/api/villain/2",
+        "https://stephen-king-api.onrender.com/api/villain/98"
+      ],
+      "stock": 3
+    },
+    {
+      "id": "3",
+      "title": "The Shining",
+      "year": 1977,
+      "publisher": "Doubleday",
+      "isbn": "978-0-385-12167-5",
+      "pages": 447,
+      "handle": "the-shining",
+      "awards": [
+        "Runner-up (4th place), Locus Award for Best Fantasy Novel, 1978[2]"
+      ],
+      "villains": [
+        "Horace M. Derwent",
+        "Delbert Grady",
+        "Jack Torrance"
+      ],
+      "villains_urls": [
+        "https://stephen-king-api.onrender.com/api/villain/26",
+        "https://stephen-king-api.onrender.com/api/villain/45",
+        "https://stephen-king-api.onrender.com/api/villain/106"
+      ],
+      "stock": 3
+    },
+    {
+      "id": "4",
+      "title": "Rage",
+      "year": 1977,
+      "publisher": "Signet Books",
+      "isbn": "978-0-451-07645-8",
+      "pages": 211,
+      "handle": "rage",
+      "awards": [
+        "Published under pseudonym Richard Bachman"
+      ],
+      "villains": [],
+      "villains_urls": [],
+      "stock": 3
+    },
+    {
+      "id": "5",
+      "title": "The Stand",
+      "year": 1978,
+      "publisher": "Doubleday",
+      "isbn": "978-0-385-12168-2",
+      "pages": 823,
+      "handle": "the-stand",
+      "awards": [
+        "Nominee, World Fantasy Award, 1979",
+        "Runner-up (15th place), Locus Award, 1979[2]"
+      ],
+      "villains": [
+        "Donald Merwin Elbert",
+        "Randall Flagg",
+        "Lloyd Henreid",
+        "The Kid",
+        "Harold Lauder",
+        "Rat Man"
+      ],
+      "villains_urls": [
+        "https://stephen-king-api.onrender.com/api/villain/34",
+        "https://stephen-king-api.onrender.com/api/villain/37",
+        "https://stephen-king-api.onrender.com/api/villain/51",
+        "https://stephen-king-api.onrender.com/api/villain/62",
+        "https://stephen-king-api.onrender.com/api/villain/64",
+        "https://stephen-king-api.onrender.com/api/villain/87"
+      ],
+      "stock": 3
+    },
+    {
+      "id": "6",
+      "title": "The Long Walk",
+      "year": 1979,
+      "publisher": "Signet Books",
+      "isbn": "978-0-451-08754-6",
+      "pages": 384,
+      "handle": "the-long-walk",
+      "awards": [
+        "Published under pseudonym Richard Bachman"
+      ],
+      "villains": [
+        "Randall Flagg",
+        "The Major"
+      ],
+      "villains_urls": [
+        "https://stephen-king-api.onrender.com/api/villain/37",
+        "https://stephen-king-api.onrender.com/api/villain/70"
+      ],
+      "stock": 3
+    },
+    {
+      "id": "7",
+      "title": "The Dead Zone",
+      "year": 1979,
+      "publisher": "Viking Press",
+      "isbn": "978-0-670-26077-5",
+      "pages": 428,
+      "handle": "the-dead-zone",
+      "awards": [
+        "Runner-up (2nd place), Locus Award for Best Fantasy Novel, 1980[2]"
+      ],
+      "villains": [
+        "Frank Dodd",
+        "Henrietta Dodd",
+        "Malcolm Janus",
+        "Sonny Elliman",
+        "Greg Stillson",
+        "The Devil's Dozen"
+      ],
+      "villains_urls": [
+        "https://stephen-king-api.onrender.com/api/villain/29",
+        "https://stephen-king-api.onrender.com/api/villain/30",
+        "https://stephen-king-api.onrender.com/api/villain/71",
+        "https://stephen-king-api.onrender.com/api/villain/93",
+        "https://stephen-king-api.onrender.com/api/villain/97",
+        "https://stephen-king-api.onrender.com/api/villain/100"
+      ],
+      "stock": 3
+    }
+  ],
+  "games": [
+    {
+      "id": "1370228",
+      "title": "Clair Obscur: Expedition 33",
+      "genre": "Role Playing",
+      "year": 2025,
+      "platforms": [
+        "PC",
+        "PlayStation 5",
+        "XBox"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.974027,
+        "count": 92480
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/257129803/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/YJnjReKXrvk"
+      },
+      "image": "https://img.gamebrain.co/games/539/clair_obscur_expedition_33_sandfall_2025_4.jpg",
+      "description": "",
+      "link": "https://gamebrain.cohttps://gamebrain.co/game/clair-obscur-expedition-33",
+      "stock": 3
+    },
+    {
+      "id": "1268338",
+      "title": "Schedule I",
+      "genre": "Open World Strategy",
+      "year": 2025,
+      "platforms": [
+        "PC",
+        "PlayStation 5",
+        "XBox"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.98053,
+        "count": 174316
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/257080424/microtrailer.webm",
+        "gameplay": "https://video.akamai.steamstatic.com/store_trailers/257080424/microtrailer.webm"
+      },
+      "image": "https://img.gamebrain.co/games/890/schedule_i_tvgs_2024_1.jpg",
+      "description": "",
+      "link": "https://gamebrain.co/game/schedule-i",
+      "stock": 3
+    },
+    {
+      "id": "1377630",
+      "title": "R.E.P.O.",
+      "genre": "Survival Strategy",
+      "year": 2025,
+      "platforms": [
+        "PC",
+        "PlayStation 5",
+        "Nintendo Switch"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.966431,
+        "count": 114838
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/257160735/microtrailer.webm",
+        "gameplay": "https://video.akamai.steamstatic.com/store_trailers/257160735/microtrailer.webm"
+      },
+      "image": "https://img.gamebrain.co/games/461/r_e_p_o_semiwork_2025_6.jpg",
+      "description": "Avem descriere",
+      "link": "https://gamebrain.co/game/r-e-p-o",
+      "stock": 3
+    },
+    {
+      "id": "104935",
+      "title": "Baldur's Gate 3",
+      "genre": "Tactical Role Playing",
+      "year": 2023,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.9676717675595288,
+        "count": 708188
+      },
+      "video": {
+        "micro_trailer": "https://cdn.akamai.steamstatic.com/steam/apps/256932354/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/FXyldfVAF9A"
+      },
+      "image": "https://img.gamebrain.co/games/155/baldurs_gate_3_larian_2020_66.jpg",
+      "description": "In Baldur's Gate 3, players embark on a journey through the ruined city of Baldur's Gate and beyond. With a focus on character development and party-based combat, players engage in strategic battles, interact with a rich cast of characters, and navigate a complex narrative filled with moral dilemmas. The game utilizes a real-time with pause combat system and is set in the popular Dungeons & Dragons tabletop role-playing game universe.",
+      "link": "https://gamebrain.co/game/baldurs-gate-3",
+      "stock": 3
+    },
+    {
+      "id": "1354215",
+      "title": "ELDEN RING NIGHTREIGN",
+      "genre": "Survival Role Playing",
+      "year": 2025,
+      "platforms": [
+        "PC",
+        "PlayStation 5",
+        "XBox"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.8342641666666667,
+        "count": 78463
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/257174018/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/AdXSL9lFJrE"
+      },
+      "image": "https://img.gamebrain.co/games/120/elden_ring_nightreign_fromsoftware_2025_24.jpg",
+      "description": "",
+      "link": "https://gamebrain.cohttps://gamebrain.co/game/elden-ring-nightreign",
+      "stock": 3
+    },
+    {
+      "id": "1487544",
+      "title": "Crowd City",
+      "genre": "Arcade Sport",
+      "year": 2025,
+      "platforms": [
+        "PlayStation 5"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.8929999999999999,
+        "count": 1035223
+      },
+      "video": {
+        "micro_trailer": null,
+        "gameplay": "https://www.youtube-nocookie.com/embed/RgSZEOLLZiY"
+      },
+      "image": "https://img.gamebrain.co/games/113/crowd_city_voodoo_2018_1.jpg",
+      "description": "",
+      "link": "https://gamebrain.co/game/crowd-city",
+      "stock": 3
+    },
+    {
+      "id": "1403470",
+      "title": "Ena: Dream BBQ",
+      "genre": "Action",
+      "year": 2025,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.985754,
+        "count": 18812
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256927346/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/1yqn1BGCNto"
+      },
+      "image": "https://img.gamebrain.co/games/957/ena_dream_bbq_enateam_2025_1.jpg",
+      "description": "",
+      "link": "https://gamebrain.cohttps://gamebrain.co/game/ena-dream-bbq",
+      "stock": 3
+    },
+    {
+      "id": "906298",
+      "title": "Supermarket Simulator",
+      "genre": "Casual Simulation",
+      "year": 2025,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.944009,
+        "count": 42507
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/257158250/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/_amVz42mg_w"
+      },
+      "image": "https://img.gamebrain.co/games/521/supermarket_simulator_nokta_2024_40.jpg",
+      "description": "In Supermarket Simulator, design your store, order stock, and manage checkouts for a realistic supermarket experience. Optimize layout, efficiency, and customer satisfaction, while navigating real-time market fluctuations for profits.",
+      "link": "https://gamebrain.cohttps://gamebrain.co/game/supermarket-simulator-2025",
+      "stock": 3
+    },
+    {
+      "id": "1475352",
+      "title": "Abiotic Factor",
+      "genre": "Survival Role Playing Shooter",
+      "year": 2025,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.963385,
+        "count": 28786
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/257172169/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/BdsUYSEkQbQ"
+      },
+      "image": "https://img.gamebrain.co/games/627/abiotic_factor_playstack_2025_1.jpg",
+      "description": "In \"Abiotic Factor,\" players navigate a chaotic, otherworldly research lab after a containment breach, fighting off hostile anomalous entities and the Order, a militaristic sect seeking to seize powerful artifacts. As a GATE employee, it's up to you to secure the lab, protect survivors, and uncover the truth behind the catastrophe. With a mix of FPS action and adventurous exploration, prepare for a thrilling, immersive experience.",
+      "link": "https://gamebrain.cohttps://gamebrain.co/game/abiotic-factor",
+      "stock": 3
+    },
+    {
+      "id": "97611",
+      "title": "My Summer Car",
+      "genre": "Open World Racing",
+      "year": 2025,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.930847,
+        "count": 54748
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/257086001/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/FV0AgsVgTTQ"
+      },
+      "image": "https://img.gamebrain.co/games/899/my_summer_car_amistech_2016_6.jpg",
+      "description": "In My Summer Car, you assemble and maintain a 1990's Finnish countryside car, while managing your character's physical needs. Once your car is operational, participate in various activities, upgrade it with ordered parts, or tune it for races. With multiple vehicles available, the game offers a rich and detailed car customization and care experience.",
+      "link": "https://gamebrain.cohttps://gamebrain.co/game/my-summer-car-uh",
+      "stock": 3
+    },
+    {
+      "id": "311163",
+      "title": "My Singing Monsters",
+      "genre": "Casual Strategy",
+      "year": 2021,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.9309999999999999,
+        "count": 817514
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/257210211/microtrailer.webm",
+        "gameplay": "https://video.akamai.steamstatic.com/store_trailers/257210211/microtrailer.webm"
+      },
+      "image": "https://img.gamebrain.co/games/414/my_singing_monsters_bigbluebubble_2021_55.jpg",
+      "description": "",
+      "link": "https://gamebrain.co/game/my-singing-monsters",
+      "stock": 3
+    },
+    {
+      "id": "455590",
+      "title": "Satisfactory",
+      "genre": "Open World Shooter",
+      "year": 2020,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.9481926717864272,
+        "count": 95174
+      },
+      "video": {
+        "micro_trailer": "https://cdn.akamai.steamstatic.com/steam/apps/256774877/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/UxA0JJJ5LTI"
+      },
+      "image": "https://img.gamebrain.co/games/558/satisfactory_coffeestain_2019_1.png",
+      "description": "Satisfactory is a first-person factory building game where you construct massive facilities to gather resources and automate production. Explore an alien planet, build intricate conveyor belt systems, and collect an array of resources to expand your factories. Collaborate with friends or play solo to create your own industrial empire.",
+      "link": "https://gamebrain.co/game/satisfactory",
+      "stock": 3
+    },
+    {
+      "id": "219685",
+      "title": "Inscryption",
+      "genre": "Strategy",
+      "year": 2021,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.9162462564102565,
+        "count": 131075
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256852985/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/QLqSWDSA0as"
+      },
+      "image": "https://img.gamebrain.co/games/124/inscryption_danielmullins_2021_4.png",
+      "description": "Inscryption is a single-player horror action game with an intriguing story, fabulous gameplay, and dense atmosphere. The game features deckbuilding, escape-room puzzles, and psychological horror as you acquire creature cards, unlock secrets, and embark on a disturbing odyssey. Although there is lots of grinding, annoying ads, bugs, and a fantastic visual and ingenious soundtrack, the game is highly emotional and very replayable.",
+      "link": "https://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.co/game/inscryption",
+      "stock": 3
+    },
+    {
+      "id": "416986",
+      "title": "Slay the Spire",
+      "genre": "Role Playing",
+      "year": 2019,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.927612,
+        "count": 121546
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256740869/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/zOUJjeynZWE"
+      },
+      "image": "https://img.gamebrain.co/games/325/slay_the_spire_megacrit_2019_6.png",
+      "description": "\"Slay the Spire\" is a single-player deckbuilder that combines elements of card games and roguelikes. Each attempt at climbing the Spire offers a unique experience, with dynamic deck building, an ever-changing layout, and powerful relics to discover. Fight bizarre creatures, choose from hundreds of cards, and face different enemies and bosses each time, striving to reach the top of the Spire.",
+      "link": "https://gamebrain.co/game/slay-the-spire",
+      "stock": 3
+    },
+    {
+      "id": "622478",
+      "title": "Totally Accurate Battle Simulator",
+      "genre": "Strategy",
+      "year": 2019,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.980215,
+        "count": 82889
+      },
+      "video": {
+        "micro_trailer": "https://cdn.akamai.steamstatic.com/steam/apps/256828204/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/jP9vYpTUOq8"
+      },
+      "image": "https://img.gamebrain.co/games/728/totally_accurate_battle_simulator_landfall_2019_1.jpg",
+      "description": "Totally Accurate Battle Simulator is a wacky physics-based warfare simulation game. Command a variety of units with unique abilities and watch as they bumble into battle, resulting in unpredictable and often hilarious outcomes. Perfect for casual players seeking a light-hearted and entertaining experience.",
+      "link": "https://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.co/game/totally-accurate-battle-simulator",
+      "stock": 3
+    },
+    {
+      "id": "905563",
+      "title": "Balatro",
+      "genre": "Casual Strategy",
+      "year": 2024,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.9357515652173913,
+        "count": 55122
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/257198110/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/d9qb_b6bErw"
+      },
+      "image": "https://img.gamebrain.co/games/219/balatro_localthunk_2024_26.jpg",
+      "description": "Balatro is a poker-inspired roguelike deck builder where you combine poker hands and unique Joker cards to create powerful synergies. With endless possibilities and a variety of tools at your disposal, every run is different as you aim to earn chips, beat devious blinds, and reach the final boss. The game features an in-depth campaign mode with 8 difficulties, as well as challenge, daily, and seeded runs.",
+      "link": "https://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.co/game/balatro",
+      "stock": 3
+    },
+    {
+      "id": "324183",
+      "title": "Cookie Clicker",
+      "genre": "Casual Strategy",
+      "year": 2021,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.9549716666666667,
+        "count": 49775
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256845926/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/EuPIOF0LG70"
+      },
+      "image": "https://img.gamebrain.co/games/547/cookie_clicker_dashnet_2021_4.jpg",
+      "description": "Cookie Clicker is a browser-based game where players bake cookies by clicking on a giant cookie, aiming to accumulate a large number of cookies and milk. As the game progresses, players can buy items with cookies to automate cookie production, resulting in an addictive and potentially endless gameplay experience. The objective is to bake cookies as quickly and efficiently as possible, with no definitive end to the game, providing countless hours of enjoyment for players.",
+      "link": "https://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.co/game/cookie-clicker-2013",
+      "stock": 3
+    },
+    {
+      "id": "622511",
+      "title": "RimWorld",
+      "genre": "Survival Real-time Strategy",
+      "year": 2018,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.9149636658180976,
+        "count": 132235
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256731486/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/EoWbZvMf5BA"
+      },
+      "image": "https://img.gamebrain.co/games/139/rimworld_ludeon_2018_36.jpg",
+      "description": "RimWorld is a sci-fi colony simulation game where players manage a group of survivors stranded on an alien planet. Colonists have individual needs, moods, and relationships, and players must build shelter, grow food, and defend against threats. The game features dynamic weather, trade, crafting, and the ability to capture and integrate prisoners into the colony. With a procedurally generated world and story, each playthrough offers a unique challenge.",
+      "link": "https://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.cohttps://gamebrain.co/game/rimworld",
+      "stock": 3
+    },
+    {
+      "id": "442240",
+      "title": "ELDEN RING",
+      "genre": "Role Playing",
+      "year": 2022,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.9407166494252873,
+        "count": 326857
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256845705/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/bg8i4CvE74M"
+      },
+      "image": "https://img.gamebrain.co/games/956/elden_ring_fromsoftware_2022_83.jpg",
+      "description": "Elden Ring Randomzier Hints is a mod for Elden Ring that generates in-game hints for item and enemy locations in randomized worlds. This mod is designed to provide more goal-directed play while still maintaining the exploration and discovery aspects of the randomized world. The hints offer information about item locations and fog gate routes, making it easier to find items useful for character builds.",
+      "link": "https://gamebrain.co/game/elden-ring-randomizer-hints",
+      "stock": 3
+    },
+    {
+      "id": "1013856",
+      "title": "Valheim",
+      "genre": "Open World Role Playing",
+      "year": 2022,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.9344794670921204,
+        "count": 233646
+      },
+      "video": {
+        "micro_trailer": "https://cdn.akamai.steamstatic.com/steam/apps/256919597/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/IAMPr9kytfk"
+      },
+      "image": "https://img.gamebrain.co/games/159/game_kinguin_130060_1.jpg",
+      "description": "Valheim is a brutally challenging, open-world survival game set in a procedurally generated purgatory inspired by Norse mythology. Players must hunt, gather resources, and craft their way to victory against fearsome foes and harsh environments. Cooperative gameplay with friends adds another layer of strategy and camaraderie to this already immersive experience.",
+      "link": "https://gamebrain.co/game/valheim",
+      "stock": 3
+    },
+    {
+      "id": "74021",
+      "title": "Stardew Valley",
+      "genre": "Role Playing",
+      "year": 2016,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.936539,
+        "count": 277972
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256815967/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/NjvFF2Kvx1U"
+      },
+      "image": "https://img.gamebrain.co/games/828/stardew_valley_concernedape_2017_4.jpg",
+      "description": "In Stardew Valley, restore a neglected farm, build relationships with villagers, and explore vast caves for resources. Customize your farmer and farm, and take part in seasonal activities and festivals. With a variety of sustainable activities and multilayered relationships, this peaceful, engaging experience offers endless possibilities for creativity and personal growth.",
+      "link": "https://gamebrain.co/game/stardew-valley",
+      "stock": 3
+    },
+    {
+      "id": "622428",
+      "title": "Hades",
+      "genre": "Hack and Slash",
+      "year": 2018,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.9598194999999999,
+        "count": 115300
+      },
+      "video": {
+        "micro_trailer": "https://cdn.akamai.steamstatic.com/steam/apps/256801288/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/Yps6NnS2sdI"
+      },
+      "image": "https://img.gamebrain.co/games/611/hades_ablex_2019_1.png",
+      "description": "\"Hades\" is a single-player fantasy hack and slash game with an intriguing story, exceptional gameplay, good visuals, and delightful music. As the immortal Prince of the Underworld, players battle out of hell using mythic weapons and the powers of Olympian gods, with plenty of replayability and unique character builds to discover. The game features a fully-voiced cast of colorful characters, creating a dense and emotionally engaging atmosphere.",
+      "link": "https://gamebrain.co/game/hades",
+      "stock": 3
+    },
+    {
+      "id": "434940",
+      "title": "The Witcher 3: Wild Hunt",
+      "genre": "Open World Role Playing",
+      "year": 2015,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.9309763333333333,
+        "count": 245824
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256920685/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/xx8kQ4s5hCY"
+      },
+      "image": "https://img.gamebrain.co/games/259/the_witcher_3_wild_hunt_cdprojektred_2016_4.jpg",
+      "description": "\"The Witcher 3: Wild Hunt\" is an action-packed fantasy RPG that lets you explore a vast, war-torn continent as Geralt of Rivia, a monster slayer and Söldner. Your mission is to find Ciri, the Child of Prophecy, a powerful entity that could change the world. The game features updated next-gen graphics, a new photo mode, and additional content inspired by the Netflix series. Immerse yourself in a rich story with intense combat and deep character development.",
+      "link": "https://gamebrain.co/game/the-witcher-3-wild-hunt",
+      "stock": 3
+    },
+    {
+      "id": "85098",
+      "title": "Blade & Sorcery",
+      "genre": "Role Playing",
+      "year": 2024,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.971141,
+        "count": 86003
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/257031554/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/02ZevA1atu4"
+      },
+      "image": "https://img.gamebrain.co/games/428/blade_and_sorcery_warpfrog_2018_4.jpg",
+      "description": "\"Blade & Sorcery\" is a fantasy combat simulator set in a detailed sandbox environment. Use physics-based fighting techniques and magic spells to battle opponents, with a focus on realism and immersion. The game features a variety of weapons, spells, and enemy types to keep the combat fresh and challenging.",
+      "link": "https://gamebrain.co/game/blade-and-sorcery",
+      "stock": 3
+    },
+    {
+      "id": "238482",
+      "title": "Rust",
+      "genre": "Open World Role Playing Shooter",
+      "year": 2018,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.8269675000000001,
+        "count": 916709
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256761600/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/IQZ5HW-9WjA"
+      },
+      "image": "https://img.gamebrain.co/games/864/rust_facepunch_2018_1.png",
+      "description": "Rust is a multiplayer-only survival game set in a harsh, open world. Gather resources, craft tools, build shelters, and form alliances with other players to survive. Conflicts arise through competition for resources and territory, and betrayal is common. The game features complex survival mechanics, including hunger, thirst, and temperature management.",
+      "link": "https://gamebrain.co/game/rust-2018",
+      "stock": 3
+    },
+    {
+      "id": "124199",
+      "title": "Omori",
+      "genre": "Role Playing",
+      "year": 2020,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.942948001768964,
+        "count": 94702
+      },
+      "video": {
+        "micro_trailer": "https://cdn.akamai.steamstatic.com/steam/apps/256761359/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/LuGJl4UVpxQ"
+      },
+      "image": "https://img.gamebrain.co/games/134/game_kinguin_81888_1.jpg",
+      "description": "In OMORI, a surreal horror RPG, a young child and their friends explore a colorful yet sinister world to find a missing person. Confront past traumas and fears in turn-based battles while choosing paths that determine the group's fate. Navigating mundane, quirky, and horrific lands, players will uncover the dark secrets behind this mysterious world.",
+      "link": "https://gamebrain.co/game/omori",
+      "stock": 3
+    },
+    {
+      "id": "346723",
+      "title": "People Playground",
+      "genre": "Simulation",
+      "year": 2019,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.988576,
+        "count": 292722
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256767517/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/j98IrTsoJig"
+      },
+      "image": "https://img.gamebrain.co/games/666/people_playground_mestiez_2019_5.jpg",
+      "description": "People Playground is a sandbox violence game where players can experiment with a variety of weapons and vehicles in a simulated environment. It offers creative freedom to build, destroy, and explore, with an emphasis on physics-based interactions and destruction. The game features detailed graphics and a range of tools to create unique and destructive scenarios. However, it contains mature content and is intended for mature audiences.",
+      "link": "https://gamebrain.co/game/people-playground-2019",
+      "stock": 3
+    },
+    {
+      "id": "15174",
+      "title": "Portal 2",
+      "genre": "Platformer",
+      "year": 2011,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.9603845494257037,
+        "count": 299612
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/5787/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/A0K5EXfgJnk"
+      },
+      "image": "https://img.gamebrain.co/games/422/portal_2_valve_2011_4.jpg",
+      "description": "",
+      "link": "https://gamebrain.co/game/portal-2-2011",
+      "stock": 3
+    },
+    {
+      "id": "199447",
+      "title": "Phasmophobia",
+      "genre": "Puzzle",
+      "year": 2020,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.959541,
+        "count": 412763
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/257162354/microtrailer.webm",
+        "gameplay": "https://video.akamai.steamstatic.com/store_trailers/257162354/microtrailer.webm"
+      },
+      "image": "https://img.gamebrain.co/games/684/phasmophobia_kinetic_2020_4716.jpg",
+      "description": "",
+      "link": "https://gamebrain.co/game/phasmophobia",
+      "stock": 3
+    },
+    {
+      "id": "127011",
+      "title": "Raft",
+      "genre": "Survival Simulation",
+      "year": 2022,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.9161758333333334,
+        "count": 228887
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256717705/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/eQQISPD58H4"
+      },
+      "image": "https://img.gamebrain.co/games/548/raft_redbeet_2022_126.jpg",
+      "description": "\"Raft\" is a survival game where you and your friends must navigate a perilous ocean to stay alive. Starting with just a hook, you'll gather debris to expand your raft and set sail towards dangerous islands. Watch out for the man-eating shark and other hazards as you search for the last remnants of civilization. Your goal is to build a worthy floating home and survive the epic adventure across the sea.",
+      "link": "https://gamebrain.co/game/raft",
+      "stock": 3
+    },
+    {
+      "id": "431985",
+      "title": "ULTRAKILL",
+      "genre": "Arcade Shooter",
+      "year": 2020,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.980453,
+        "count": 172200
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256788718/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/o64_vHE0yKU"
+      },
+      "image": "https://img.gamebrain.co/games/622/ultrakill_arsihakitapatala_2020_1.jpg",
+      "description": "Ultrakill is a fast-paced and stylish retro-FPS game that takes place in a dark, dystopian world. You play as a mysterious gun-wielding automaton, battling against hordes of enemies using a wide range of weapons and creative kill combos. The game features a unique momentum-based movement system, allowing for fluid and acrobatic traversal throughout the environment.",
+      "link": "https://gamebrain.co/game/ultrakill",
+      "stock": 3
+    },
+    {
+      "id": "19463",
+      "title": "Doki Doki Literature Club",
+      "genre": "Action",
+      "year": 2017,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.9695900000000001,
+        "count": 122637
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256692832/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/msc1n57t-L8"
+      },
+      "image": "https://img.gamebrain.co/games/842/doki_doki_literature_club_teamsalvato_2017_31.jpg",
+      "description": "\"Doki Doki Literature Club\" is a free visual novel game featuring cute, stylized art and music. You join the school's literature club, interacting with its four members: the cheerful Sayori, tsundere Natsuki, shy Yuri, and the club leader, Monika. As you progress, the game delves into deeper themes, making it unsuitable for children or those easily disturbed. Note: the game has self-aware elements and contains customizable difficulty settings.",
+      "link": "https://gamebrain.co/game/doki-doki-literature-club",
+      "stock": 3
+    },
+    {
+      "id": "1247759",
+      "title": "Minecraft",
+      "genre": "Arcade Role Playing",
+      "year": 2019,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.862,
+        "count": 1618320
+      },
+      "video": {
+        "micro_trailer": null,
+        "gameplay": null
+      },
+      "image": "https://img.gamebrain.co/games/335/minecraft_mojang_2022_2.jpg",
+      "description": "Minecraft is a popular open-world game where players can explore, build, and survive in infinite worlds, either alone or with friends, in both local and massively multiplayer modes. The game offers creative and survival modes, with unlimited resources or the need to mine and craft weapons and armor to fend off mobs. Additional features include the marketplace, slash commands, and add-ons for further customization.",
+      "link": "https://gamebrain.co/game/minecraft",
+      "stock": 3
+    },
+    {
+      "id": "663491",
+      "title": "Lethal Company",
+      "genre": "Action Adventure",
+      "year": 2023,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.976471,
+        "count": 242679
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256961309/microtrailer.webm",
+        "gameplay": "https://video.akamai.steamstatic.com/store_trailers/256961309/microtrailer.webm"
+      },
+      "image": "https://img.gamebrain.co/games/664/lethal_company_zeekerss_2023_20.jpg",
+      "description": "In \"Lethal Company,\" you're a contractor for a mysterious Company, scavenging scrap from abandoned moons while managing crew safety and upgrading your ship. Expect danger, exploration, and interaction with alien creatures, while ensuring you meet the Company's profit quota. Use tools and coordinate with your crew to overcome challenges, especially during perilous nighttime encounters.",
+      "link": "https://gamebrain.co/game/lethal-company",
+      "stock": 3
+    },
+    {
+      "id": "284530",
+      "title": "Euro Truck Simulator 2",
+      "genre": "Open World Racing",
+      "year": 2012,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.9544616666666668,
+        "count": 172485
+      },
+      "video": {
+        "micro_trailer": "https://cdn.akamai.steamstatic.com/steam/apps/256945941/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/b54Kk5vvxfw"
+      },
+      "image": "https://img.gamebrain.co/games/348/euro_truck_simulator_2_scs_2013_31.jpg",
+      "description": "In Euro Truck Simulator 2, become a skilled long-haul trucker, delivering cargo to over 60 European cities. Manage your own trucking business, hire drivers, and tune your fleet for maximum profits. The recently added 8-player Convoy multiplayer mode allows you to team up with friends for collaborative gameplay.",
+      "link": "https://gamebrain.co/game/euro-truck-simulator-2",
+      "stock": 3
+    },
+    {
+      "id": "1144678",
+      "title": "ESPN Fantasy Sports &amp; More",
+      "genre": "Sport",
+      "year": 2012,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.9119999999999999,
+        "count": 1920027
+      },
+      "video": {
+        "micro_trailer": null,
+        "gameplay": null
+      },
+      "image": "https://img.gamebrain.co/games/295/espn_fantasy_sports_more_disney_2012_21.png",
+      "description": "\"ESPN Fantasy Sports & More\" is a free-to-play app that allows you to create or join leagues for fantasy football, basketball, baseball, and hockey. The game provides player rankings, projections, and analysis from trusted ESPN personalities. Compete with friends, chat in-game, and customize your team with exclusive logos, all while following live, real-time scoring.",
+      "link": "https://gamebrain.co/game/espn-fantasy-sports-amp-more",
+      "stock": 3
+    },
+    {
+      "id": "293973",
+      "title": "Beat Saber",
+      "genre": "Casual Sport",
+      "year": 2023,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.9253296365651024,
+        "count": 103069
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/256736673/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/py2bnYWhuJI"
+      },
+      "image": "https://img.gamebrain.co/games/931/beat_saber_beat_2019_59.jpg",
+      "description": "\"Beat Saber\" is a virtual reality rhythm game that immerses players in a futuristic world with handcrafted levels and pulsing music. Players use sabers to slash beats as they fly toward them, with each beat indicating which saber to use and the direction to match. The game offers both single-player and multi-player options, allowing players to become dancing superheroes in their own rhythmic journey.",
+      "link": "https://gamebrain.co/game/beat-saber",
+      "stock": 3
+    },
+    {
+      "id": "939536",
+      "title": "Grand Theft Auto V",
+      "genre": "Open World Shooter",
+      "year": 2022,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.8785671190476191,
+        "count": 535459
+      },
+      "video": {
+        "micro_trailer": "https://cdn.akamai.steamstatic.com/steam/apps/256913303/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/oYlsmbxTVM4"
+      },
+      "image": "https://img.gamebrain.co/games/908/grand_theft_auto_5_rockstarnorth_2014_15.jpg",
+      "description": "\"Grand Theft Auto V\" is an action-packed game that follows the story of a young hustler, a retired bank robber, and a psychopath as they become entangled in the criminal underworld. The PC version of the game offers stunning visuals in up to 4k resolution and 60 frames per second, along with extensive PC-specific customization options for graphics and controls. Experience the vast open world of Los Santos and Blaine County while carrying out dangerous heists and navigating the ruthless city.",
+      "link": "https://gamebrain.co/game/grand-theft-auto-5",
+      "stock": 3
+    },
+    {
+      "id": "1172723",
+      "title": "EA SPORTS FC™: UEFA EURO 2024™",
+      "genre": "Sport",
+      "year": 2016,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.8929999999999999,
+        "count": 1544980
+      },
+      "video": {
+        "micro_trailer": null,
+        "gameplay": null
+      },
+      "image": "https://img.gamebrain.co/games/338/ea_sports_fc_uefa_euro_2024_electronicarts_2016_1.png",
+      "description": "",
+      "link": "https://gamebrain.co/game/ea-sports-fc-uefa-euro-2024",
+      "stock": 3
+    },
+    {
+      "id": "1110300",
+      "title": "Madden NFL 24 Mobile Football",
+      "genre": "Sport",
+      "year": 2020,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.8929999999999999,
+        "count": 936029
+      },
+      "video": {
+        "micro_trailer": null,
+        "gameplay": "https://www.youtube-nocookie.com/embed/4CptKlpe1U0"
+      },
+      "image": "https://img.gamebrain.co/games/547/madden_nfl_24_mobile_football_electronicarts_2020_1.png",
+      "description": "\"Madden NFL 24 Mobile Football\" offers authentic sports game action and mobile-first visuals for its 10th season. Build your Ultimate Team, earn superstars, and compete in skill-based challenges, journeys, and competitions. Look forward to visual enhancements, the return of Coaches and Playbooks, and engaging in real-world events like Kickoff Weekend and the Super Bowl.",
+      "link": "https://gamebrain.co/game/madden-nfl-24-mobile-football",
+      "stock": 3
+    },
+    {
+      "id": "1176072",
+      "title": "NBA 2K Mobile Basketball Game",
+      "genre": "Sport",
+      "year": 2018,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.9119999999999999,
+        "count": 1593075
+      },
+      "video": {
+        "micro_trailer": null,
+        "gameplay": null
+      },
+      "image": "https://img.gamebrain.co/games/812/nba_2k_mobile_basketball_game_2k_2018_44.png",
+      "description": "NBA 2K Mobile's Season 7 offers an immersive basketball experience with updated animations, new game modes, and events. Collect NBA stars, build your dream team, and relive or rewrite the season's biggest moments in Rewind Mode. Enjoy lifelike gameplay and stunning graphics as you play through every game in the current NBA season. Experience basketball greatness from legends to today's superstars.",
+      "link": "https://gamebrain.co/game/nba-2k-mobile-basketball-game",
+      "stock": 3
+    },
+    {
+      "id": "26131",
+      "title": "Rocket League",
+      "genre": "Racing",
+      "year": 2015,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.8590608780487805,
+        "count": 447065
+      },
+      "video": {
+        "micro_trailer": "https://video.akamai.steamstatic.com/store_trailers/257157932/microtrailer.webm",
+        "gameplay": "https://www.youtube-nocookie.com/embed/T9ze28cUjHM"
+      },
+      "image": "https://img.gamebrain.co/games/638/rocket_league_psyonix_2015_7.jpg",
+      "description": "Rocket League is a free-to-play Science Fiction Shooter game that combines high-octane arcade-style soccer with vehicular mayhem. Play locally with 2 players, or online with friends in co-op and multiplayer modes. Compete in tournaments, unlock items, and complete challenges, with cross-platform progression and ranked competitive modes. Experience a unique blend of sports and driving action!",
+      "link": "https://gamebrain.co/game/rocket-league",
+      "stock": 3
+    },
+    {
+      "id": "1354805",
+      "title": "PrizePicks - Fantasy Sports",
+      "genre": "Sport",
+      "year": 2018,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.9119999999999999,
+        "count": 397787
+      },
+      "video": {
+        "micro_trailer": null,
+        "gameplay": null
+      },
+      "image": "https://img.gamebrain.co/games/106/prizepicks_fantasy_sports_sideprize_2018_40.png",
+      "description": "PrizePicks is a daily fantasy sports game that lets you choose 2-6 players and bet on them either exceeding or falling short of their statistical projections, with the chance to win up to 1000x your money. It offers a variety of sports, players, and stat types, and has a simple and fast gameplay with regular promotions and an active member community. With options for both hardcore fans and casual players, PrizePicks provides unlimited fantasy sports fun.",
+      "link": "https://gamebrain.co/game/prizepicks-fantasy-sports",
+      "stock": 3
+    },
+    {
+      "id": "1174199",
+      "title": "DraftKings Sportsbook &amp; Casino",
+      "genre": "Sport",
+      "year": 2018,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0.9119999999999999,
+        "count": 842308
+      },
+      "video": {
+        "micro_trailer": null,
+        "gameplay": null
+      },
+      "image": "https://img.gamebrain.co/games/339/draftkings_sportsbook_casino_draftkings_2018_69.png",
+      "description": "DraftKings Sportsbook & Casino is a legal mobile sports betting platform that allows users to bet on a variety of sports across multiple states. The game offers various betting options, including live/in-game bets, cross-sport parlays, and prop bets, using advanced technology similar to DraftKings' daily fantasy sports. By joining for free, users can win cash prizes and participate in pools for various sports.",
+      "link": "https://gamebrain.co/game/draftkings-sportsbook-amp-casino",
+      "stock": 3
+    },
+    {
+      "id": "885e",
+      "title": "League of Legends",
+      "genre": "Moba",
+      "year": 2010,
+      "platforms": [
+        "PC"
+      ],
+      "mobile": false,
+      "rating": {
+        "mean": 0,
+        "count": 0
+      },
+      "image": "https://gaming-cdn.com/images/products/9456/616x353/league-of-legends-pc-game-cover.jpg?v=1747212286",
+      "description": "League of Legends is a fast-paced 5v5 multiplayer online battle arena (MOBA) game developed by Riot Games. Players choose from over 160 unique champions, each with different abilities and roles, and work together to defeat the enemy team by destroying their Nexus. Matches combine strategy, skill, teamwork, and quick decision-making. LoL is one of the world’s most popular competitive games and a major title in eSports.",
+      "link": "https://www.leagueoflegends.com/ro-ro/",
+      "stock": 7
+    }
+  ]
+}

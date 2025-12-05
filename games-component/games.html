@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Game Library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="games.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-inner">
+        <h1>Game Library</h1>
+
+        <div class="controls">
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="Caută după nume, gen sau platformă..."
+          />
+
+          <select id="genreFilter">
+            <option value="">Toate genurile</option>
+          </select>
+
+          <select id="platformFilter">
+            <option value="">Toate platformele</option>
+          </select>
+
+          <select id="sortSelect">
+            <option value="">Sortare implicită</option>
+            <option value="ratingDesc">Rating (descrescător)</option>
+            <option value="yearDesc">An apariție (nou → vechi)</option>
+            <option value="yearAsc">An apariție (vechi → nou)</option>
+          </select>
+
+          <button id="addGameBtn" class="btn-primary">+ Adaugă joc</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="gamesContainer" class="games-grid"></section>
+
+      <div id="loading" class="status-message">Se încarcă jocurile...</div>
+
+      <div id="error" class="status-message status-error" style="display: none">
+        A apărut o eroare.
+      </div>
+
+      <div id="noResults" class="status-message" style="display: none">
+        Niciun joc găsit.
+      </div>
+    </main>
+
+    <div id="gameModal" class="modal">
+      <div id="modalBackdrop" class="modal-backdrop"></div>
+
+      <div class="modal-content">
+        <button id="modalClose" class="modal-close">×</button>
+
+        <div class="modal-body">
+          <div class="modal-image-wrapper">
+            <img id="modalImage" src="" alt="" />
+          </div>
+
+          <div class="modal-info">
+            <h2 id="modalTitle"></h2>
+
+            <div class="modal-meta">
+              <span id="modalGenre" class="badge"></span>
+              <span id="modalYear" class="badge badge-outline"></span>
+              <span id="modalPlatforms" class="badge badge-platform"></span>
+            </div>
+
+            <div class="modal-rating">
+              <div id="modalStars" class="stars"></div>
+
+              <div class="rating-text">
+                <span id="modalRatingValue"></span>
+                <span id="modalRatingCount"></span>
+              </div>
+            </div>
+
+            <p id="modalDescription" class="modal-description"></p>
+
+            <div class="modal-actions">
+              <a id="modalLink" target="_blank">Vezi pagina jocului</a>
+
+              <button id="modalTrailerBtn" class="btn-secondary">
+                Trailer
+              </button>
+
+              <button id="modalEditBtn" class="btn-primary">
+                Editează jocul
+              </button>
+            </div>
+
+            <div
+              id="modalTrailerWrapper"
+              class="trailer-wrapper"
+              style="display: none"
+            >
+              <iframe id="modalTrailer" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="editModal" class="modal">
+      <div id="editModalBackdrop" class="modal-backdrop"></div>
+
+      <div class="modal-content">
+        <button id="editModalClose" class="modal-close">×</button>
+
+        <div class="modal-body" style="grid-template-columns: 1fr">
+          <form id="editForm" class="edit-form">
+            <h2>Editează jocul</h2>
+
+            <div class="form-row">
+              <label for="editTitle">Titlu</label>
+              <input id="editTitle" type="text" required />
+            </div>
+
+            <div class="form-row">
+              <label for="editGenre">Gen</label>
+              <input id="editGenre" type="text" />
+            </div>
+
+            <div class="form-row">
+              <label for="editYear">An</label>
+              <input id="editYear" type="number" />
+            </div>
+
+            <div class="form-row">
+              <label for="editPlatforms">Platforme</label>
+              <input id="editPlatforms" type="text" />
+            </div>
+
+            <div class="form-row">
+              <label for="editStock">Stock</label>
+              <input id="editStock" type="number" />
+            </div>
+
+            <div class="form-row">
+              <label for="editImage">Imagine</label>
+              <input id="editImage" type="text" />
+            </div>
+
+            <div class="form-row">
+              <label for="editLink">Link</label>
+              <input id="editLink" type="text" />
+            </div>
+
+            <div class="form-row">
+              <label for="editDescription">Descriere</label>
+              <textarea id="editDescription"></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button id="editCancelBtn" type="button" class="btn-secondary">
+                Anulează
+              </button>
+              <button type="submit" class="btn-primary">Salvează</button>
+            </div>
+
+            <div
+              id="editStatus"
+              class="status-message"
+              style="display: none"
+            ></div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div id="addModal" class="modal">
+      <div id="addModalBackdrop" class="modal-backdrop"></div>
+
+      <div class="modal-content">
+        <button id="addModalClose" class="modal-close">×</button>
+
+        <div class="modal-body" style="grid-template-columns: 1fr">
+          <form id="addForm" class="edit-form">
+            <h2>Adaugă joc</h2>
+
+            <div class="form-row">
+              <label>Titlu</label>
+              <input id="addTitle" required />
+            </div>
+
+            <div class="form-row">
+              <label>Gen</label>
+              <input id="addGenre" />
+            </div>
+
+            <div class="form-row">
+              <label>An</label>
+              <input id="addYear" type="number" />
+            </div>
+
+            <div class="form-row">
+              <label>Platforme</label>
+              <input id="addPlatforms" />
+            </div>
+
+            <div class="form-row">
+              <label>Stock</label>
+              <input id="addStock" type="number" value="3" />
+            </div>
+
+            <div class="form-row">
+              <label>Imagine</label>
+              <input id="addImage" />
+            </div>
+
+            <div class="form-row">
+              <label>Link</label>
+              <input id="addLink" />
+            </div>
+
+            <div class="form-row">
+              <label>Descriere</label>
+              <textarea id="addDescription"></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button id="addCancelBtn" type="button" class="btn-secondary">
+                Anulează
+              </button>
+              <button type="submit" class="btn-primary">Salvează jocul</button>
+            </div>
+
+            <div
+              id="addStatus"
+              class="status-message"
+              style="display: none"
+            ></div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  <template id="gameCardTemplate">
+    <article class="game-card">
+      <div class="game-image-wrapper">
+        <img class="game-img" src="" alt="" />
+
+        <div class="game-rating-chip" style="display:none;">
+          <span class="game-rating-pct"></span>
+          <small class="game-rating-count"></small>
+        </div>
+
+        <button class="card-delete-btn">Delete</button>
+      </div>
+
+      <div class="game-content">
+        <h2 class="game-title"></h2>
+        <p class="game-genre"></p>
+
+        <div class="game-meta">
+          <span class="game-year"></span>
+          <span class="game-platforms-text"></span>
+        </div>
+
+        <div class="badges-row">
+        </div>
+      </div>
+    </article>
+  </template>
+
+    <script src="games.js" defer></script>
+  </body>
+</html>

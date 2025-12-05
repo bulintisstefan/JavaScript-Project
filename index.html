@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..800&family=Inter:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Neon Library</title>
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header>
+      <div class="logo">
+        <span class="pulse" aria-hidden="true"></span> Neon Library
+      </div>
+      <div class="meta" id="counts" aria-live="polite"></div>
+    </header>
+
+    <main class="wrap">
+      <section class="grid">
+        <article
+          class="card"
+          id="card-games"
+          role="link"
+          tabindex="0"
+          aria-label="Deschide Games"
+          data-href="./games-component/games.html"
+        >
+          <div class="games-bg" aria-hidden="true">
+            <video
+              src="https://cdn.akamai.steamstatic.com/steam/apps/256932354/microtrailer.webm"
+              autoplay
+              muted
+              loop
+              playsinline
+            ></video>
+            <div class="scanline"></div>
+          </div>
+          <div class="overlay"></div>
+          <div class="content">
+            <div class="kicker">Library</div>
+            <div class="title">Games</div>
+            <div class="meta">
+              <span class="badge" id="games-count">—</span>
+              <span class="badge">FPS · RPG · Strategy</span>
+            </div>
+          </div>
+        </article>
+
+        <article
+          class="card"
+          id="card-books"
+          role="link"
+          tabindex="0"
+          aria-label="Deschide Books"
+          data-href="./books-component/books.html"
+        >
+          <div class="books-bg" aria-hidden="true">
+            <video
+              src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+              autoplay
+              muted
+              loop
+              playsinline
+              poster="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop"
+            ></video>
+            <div class="scanline"></div>
+          </div>
+          <div class="overlay"></div>
+          <div class="content">
+            <div class="kicker">Library</div>
+            <div class="title">Books</div>
+            <div class="meta">
+              <span class="badge" id="books-count">—</span>
+              <span class="badge">Horror · Fantasy · Classics</span>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
